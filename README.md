@@ -1,16 +1,27 @@
-# quoteapp
+# Quote Generator App
 
-A new Flutter project.
+This Flutter app is a very simple and elegant **Quote Generator**. It fetches random quotes from an API based on user-specified keywords. You can copy quotes to the clipboard or share them on social media platforms like Twitter.
 
-## Getting Started
+## Features
+- Fetch random quotes.
+- Copy quotes to the clipboard.
+- Share quotes on x.com media.
+- Beautiful and responsive UI with animations.
+- Built with **MVVM architecture** and **Provider** for state management.
 
-This project is a starting point for a Flutter application.
+## How it Works
+1. Click on the quote button to get random quote.
+2. Copy the quote to share with others or post it on social media.
+3. Enjoy motivational, inspirational, and insightful quotes!
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Flutter**: For building the cross-platform app.
+- **Provider**: State management solution.
+- **MVVM Architecture**: Separation of concerns and clean code structure.
+- **REST API**: Fetches quotes from an external API.
+- **Dart**: Programming language used for Flutter apps.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/quote-generator.git
